@@ -12,3 +12,9 @@ html {
   font-size: 62.5%;
 }
 /* END OF COMMON STYLE */
+
+/* COLORS */
+:root {
+  --main: #3d7e83;
+}
+/* END OF COLORS */
