@@ -5,33 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M7D</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- END OF FONT AWESOME -->
+
+    <!-- MY STYLE -->
     <link rel="stylesheet" href="style.css" />
+    <!-- END OF MY STYLE -->
   </head>
   <body>
     <!-- HEADER -->
 
-    <!-- NAVBAR -->
     <header>
+      <!-- LOGO -->
       <div class="logo">
         <p class="logo-txt">M7D</p>
       </div>
+      <!-- END OF LOGO -->
+
+      <!-- NAVBAR -->
       <nav>
-        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link active">Home</a>
         <a href="#" class="nav-link">Works</a>
         <a href="#" class="nav-link">About</a>
         <a href="#" class="nav-link">Contact</a>
         <a href="#" class="nav-link">Achievements</a>
       </nav>
-      <div class="social-container">
-        <a href=""><img src="images/bihance.png" alt="Behance" /></a>
-        <a href=""><img src="images/linkdin.png" alt="Linkedin" /></a>
-        <a href=""><img src="images/dribbble.png" alt="Dribbble" /></a>
-        <a href=""><img src="images/gmail.png" alt="Gmail" /></a>
-      </div>
-    </header>
-    <!-- END OF NAVBAR -->
+      <!-- END OF NAVBAR -->
 
+      <!-- SOCIAL LINKS -->
+      <div class="social-container">
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-dribbble"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <!-- END OF SOCIAL LINKS -->
+    </header>
     <!-- END OF HEADER -->
+
+    <!-- SECTION ONE -->
+    <section class="section-one">
+      <div class="left-side">
+        <h1>Welcome to my Portfolio</h1>
+        <div class="info">
+          <h2>I am Manal</h2>
+          <h3>UI/UX Designer</h3>
+        </div>
+        <div class="bio">
+          <p>It is great to have you here</p>
+          <p>Do You want to Design a logo, UI/UX app or website,</p>
+          <p>I can help! Contact me now!</p>
+        </div>
+
+        <button type="submit" class="more-about">More about me</button>
+      </div>
+      <div class="right-side">
+        <img src="images/header.png" alt="" />
+      </div>
+    </section>
+    <!-- END OF SECTION ONE -->
+
     <script src="app.js"></script>
   </body>
 </html>

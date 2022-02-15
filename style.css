@@ -1,4 +1,6 @@
-/* COMMON STYLE */
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Simonetta:wght@400;900&family=Spirax&display=swap");
+/*/******************** COMMON STYLE /************/
 * {
   margin: 0;
   padding: 0;
@@ -6,15 +8,162 @@
   outline: none;
   text-decoration: none;
   font-weight: 400;
+  border: none;
 }
 
 html {
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
 }
-/* END OF COMMON STYLE */
+/******************** END OF COMMON STYLE *********/
 
-/* COLORS */
+/******************** COLORS ********************/
 :root {
   --main: #3d7e83;
 }
-/* END OF COLORS */
+/******************** END OF COLORS ************/
+
+/******************** HEADER ********************/
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Spirax", cursive;
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0.17rem 0.3rem #fff0f0;
+  margin-left: 8rem;
+  width: 10%;
+  cursor: default;
+}
+
+nav {
+  font-size: 2.1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav .nav-link {
+  color: white;
+  margin: 0 3rem;
+  text-shadow: 0 0.2rem 0.2rem #000;
+  transition: all 0.1s;
+}
+
+nav .nav-link:hover {
+  text-shadow: 0.5rem 0.5rem 0.4rem #000;
+  transform: scale(1.1);
+}
+
+.social-container {
+  height: 4.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 8rem;
+}
+
+.social-container i {
+  color: black;
+  font-size: 2rem;
+  border: #000 solid 0.1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.social-container i:hover {
+  color: white;
+  background-color: #000;
+}
+
+header .active {
+  color: #000;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+header .active:hover {
+  text-shadow: none;
+  transform: scale(1) translateY(-0.3rem);
+}
+/******************** END OF HEADER ********************/
+
+/******************** SECTION ONE ********************/
+.section-one {
+  height: 80vh;
+  display: flex;
+  margin-top: 10vh;
+}
+
+.left-side {
+  width: 50vw;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+}
+
+.left-side h1 {
+  font-family: "Simonetta", cursive;
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+.left-side h2,
+h3 {
+  font-weight: 600;
+  font-size: 3.9rem;
+}
+
+.left-side h3 {
+  font-family: "Simonetta", cursive;
+  text-shadow: 0 0.2rem 0.3rem #3d7e83;
+  margin-bottom: 3rem;
+}
+
+.bio {
+  margin-bottom: 3rem;
+}
+.left-side p {
+  font-size: 2.4rem;
+}
+
+.more-about {
+  background-color: #3d7e83;
+  width: 60%;
+  height: 6.2rem;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.more-about:hover {
+  background-color: #2e5d61;
+}
+
+.right-side {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side img {
+  margin-bottom: 20rem;
+}
+/******************** END OF SECTION ONE ************/
