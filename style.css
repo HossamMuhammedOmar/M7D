@@ -34,10 +34,6 @@ header {
 }
 
 .logo {
-  font-family: "Spirax", cursive;
-  font-size: 5rem;
-  letter-spacing: 0.1rem;
-  text-shadow: 0 0.17rem 0.3rem #fff0f0;
   margin-left: 8rem;
   width: 10%;
   cursor: default;
@@ -130,11 +126,24 @@ h3 {
   font-family: "Simonetta", cursive;
   text-shadow: 0 0.2rem 0.3rem #3d7e83;
   margin-bottom: 3rem;
+  margin-top: 0.5rem;
 }
 
 .bio {
   margin-bottom: 3rem;
 }
+
+.bio span {
+  font-weight: 700;
+  cursor: pointer;
+  color: #3d7e83;
+  transition: all 0.2s ease;
+}
+
+.bio span:hover {
+  color: #2a5a5e;
+}
+
 .left-side p {
   font-size: 2.4rem;
 }
