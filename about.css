@@ -1,0 +1,106 @@
+/******************** HEADER ********************/
+
+header {
+  background-color: white;
+  box-shadow: 0.2rem 0.2rem 0.2rem #3d7e83;
+  position: relative;
+  z-index: 10;
+}
+
+nav .nav-link {
+  color: #3d7e83;
+  text-shadow: none;
+}
+
+nav .nav-link:hover {
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.295);
+  transform: scale(1.1);
+}
+
+header .active {
+  color: #000;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+header .active:hover {
+  text-shadow: none;
+  transform: scale(1) translateY(-0.3rem);
+}
+
+.social-container i {
+  color: #3d7e83;
+  border: #3d7e83 solid 0.1rem;
+  transition: all 0.2s;
+}
+
+.social-container i:hover {
+  color: white;
+  background-color: #3d7e83;
+}
+
+/******************** END OF HEADER ********************/
+
+/******************** SECTION THREE ********************/
+
+.section-three {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.circle {
+  width: 60rem;
+  height: 60rem;
+  background-color: rgba(238, 234, 234, 71%);
+  border-radius: 50%;
+  position: absolute;
+  top: -20rem;
+  right: -15rem;
+  z-index: -1;
+}
+
+.left-side {
+  padding-top: 10rem;
+}
+
+.left-side img {
+  width: 40vw;
+  height: auto;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  margin-right: 10rem;
+}
+
+.right-side h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: "Simonetta", cursive;
+  letter-spacing: 0.1rem;
+}
+
+.right-side h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: "Simonetta", cursive;
+  letter-spacing: 0.1rem;
+  align-self: flex-start;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.right-side p {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
+}
+
+.right-side p:last-child {
+  align-self: flex-start;
+  margin-top: 3rem;
+}

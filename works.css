@@ -54,7 +54,7 @@ header .active:hover {
   align-items: center;
 }
 
-.logo {
+.logo-project {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +97,7 @@ header .active:hover {
   background-position: center;
 }
 
-.logo img {
+.logo-project img {
   margin-right: 10rem;
 }
 
