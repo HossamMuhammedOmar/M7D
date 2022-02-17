@@ -58,6 +58,7 @@ header .active:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .project-link:nth-child(1) {
