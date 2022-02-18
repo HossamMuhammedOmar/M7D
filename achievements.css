@@ -1,0 +1,90 @@
+/******************** SECTION THREE ********************/
+
+header {
+  position: relative;
+  z-index: 10;
+}
+.section-four {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  height: 90vh;
+  width: 100vw;
+  padding-top: 10rem;
+  flex-wrap: wrap;
+}
+
+.circle {
+  width: 60rem;
+  height: 60rem;
+  background-color: rgba(238, 234, 234, 71%);
+  border-radius: 50%;
+  position: absolute;
+  top: -20rem;
+  right: -15rem;
+  z-index: -1;
+}
+
+.image-container {
+  position: relative;
+}
+
+.section-four img {
+  width: 45vw;
+  margin-bottom: 10rem;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.image-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: -1rem;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: fit-content;
+  opacity: 0;
+  letter-spacing: 0.2rem;
+  transform: translateY(-7rem) translateX(13rem);
+}
+
+/* .image-container h2::before {
+  content: "";
+  width: 20rem;
+  height: 0.2rem;
+  width: 0;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: 21;
+  top: 7rem;
+} */
+
+/* .image-container:hover.image-container::before {
+  opacity: 1;
+  transition: all 0.8s;
+} */
+
+.image-container:hover img {
+  filter: brightness(50%) blur(5px) drop-shadow(0.2rem 0.2rem 0.1rem #ea4335);
+  /* 0.5rem 0.5rem 0.3rem #ea4335,
+  0.5rem 0.5rem 0.3rem #fbbc05,
+  0.5rem 0.5rem 0.3rem #4285f4,
+  0.5rem 0.5rem 0.3rem #34a853,
+  0.5rem 0.5rem 0.3rem #ea4335 */
+  transition: all 0.5s;
+}
+
+.image-container:hover h2 {
+  opacity: 1;
+  transition: all 1.5s;
+}
+
+/* img:hover {
+  filter: drop-shadow(16px 16px 20px rgb(0, 255, 115)) invert(75%);
+  transform: scale(1.03);
+} */
