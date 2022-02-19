@@ -1,0 +1,139 @@
+main {
+  font-family: "Roboto", sans-serif;
+}
+/******************** SECTION ONE ********************/
+.smile-section-one {
+  height: 50rem;
+  background: #1f3f6a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.smile-section-one .smile-logo {
+  width: 28rem;
+  height: auto;
+}
+
+.bio {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding-left: 6.5rem;
+}
+
+.hint {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem 2rem;
+}
+
+.mockup-header {
+  position: absolute;
+  width: 22%;
+  height: auto;
+  object-fit: contain;
+  left: 5rem;
+  bottom: -0.3rem;
+  z-index: 2;
+  transition: all 0.2s;
+}
+
+.mockup-header:hover {
+  transform: translateY(-0.8rem);
+  filter: drop-shadow(0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.514));
+}
+
+.bg-mockup-header {
+  position: absolute;
+  left: 0;
+}
+/******************** END OF SECTION ONE ********************/
+
+/******************** SECTION TWO ********************/
+.smile-section-two {
+  overflow-x: hidden;
+  padding-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-background {
+  width: 30vw;
+}
+
+.project-goals {
+  width: 30vw;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 180%;
+}
+
+.project-goals span {
+  font-weight: 400;
+}
+
+.project-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.project-preview img {
+  width: 20vw;
+  transition: all 0.2s;
+}
+
+.project-preview img:hover {
+  transform: scale(1.02);
+  filter: brightness(105%);
+}
+
+.circle-background-right {
+  width: 70rem;
+  height: 70rem;
+  border-radius: 50%;
+  background-color: #eeebebaf;
+  position: absolute;
+  right: -35rem;
+  z-index: -1;
+  top: 30vh;
+}
+
+.circle-background-left {
+  width: 70rem;
+  height: 70rem;
+  border-radius: 50%;
+  background-color: #eeebeb8e;
+  position: absolute;
+  left: -35rem;
+  z-index: -1;
+  top: 60vh;
+}
+/******************** END OF SECTION TWO **********************/
+
+/******************** SECTION THREE ***************************/
+
+/******************** END OF SECTION THREE ********************/
