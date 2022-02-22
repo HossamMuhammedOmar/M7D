@@ -452,3 +452,18 @@ img {
 }
 
 /******************** END OF SECTION EIGHT ********************/
+
+/************************ SECTION NINE ***********************/
+.smile-section-nine {
+  background-color: rgba(64, 87, 124, 8%);
+}
+
+.smile-section-nine .orders-list p {
+  padding-left: 0;
+  margin-left: 2rem;
+}
+
+.smile-section-nine .orders-list {
+  width: 90%;
+}
+/******************** END OF SECTION NINE ********************/
