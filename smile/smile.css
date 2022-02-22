@@ -316,7 +316,7 @@ p {
   margin-bottom: 8rem;
   width: 25vw;
   height: 0.2rem;
-  background-color: #c4c4c4;
+  background-color: #d3d2d2cc;
 }
 /******************** END OF SECTION FOUR ********************/
 
@@ -386,5 +386,69 @@ p {
 .smile-section-six img {
   width: 100%;
 }
-
 /******************** END OF SECTION SIX ********************/
+
+/************************ SECTION SEVEN ***********************/
+
+.smile-section-seven {
+  background-color: rgba(64, 87, 124, 8%);
+  position: relative;
+  padding-top: 7rem;
+}
+
+.smile-section-seven .right-img-bg {
+  position: absolute;
+  width: 40vw;
+  left: 0;
+  top: 5rem;
+}
+
+.smile-section-seven p {
+  padding-bottom: 6rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+.smile-section-seven h2,
+p,
+img {
+  position: relative;
+}
+/******************** END OF SECTION SEVEN ********************/
+
+/************************ SECTION EIGHT ***********************/
+.smile-section-eight {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.smile-section-eight p {
+  padding-bottom: 7rem;
+}
+
+.smile-section-eight img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.smile-section-eight .horizontal-line {
+  width: 15%;
+  margin-top: 6rem;
+  margin-bottom: 0rem;
+}
+
+.smile-section-eight .left-circle-img,
+.smile-section-eight .right-circle-img {
+  position: absolute;
+  background-color: rgba(147, 147, 215, 14%);
+}
+
+.smile-section-eight .right-circle-img {
+  top: 40%;
+  width: 40rem;
+  height: 40rem;
+}
+
+/******************** END OF SECTION EIGHT ********************/
