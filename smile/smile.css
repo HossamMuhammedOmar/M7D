@@ -260,5 +260,105 @@ p {
   position: absolute;
   z-index: -1;
 }
-
 /******************** END OF SECTION THREE ********************/
+
+/************************ SECTION FOUR ************************/
+.smile-section-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.smile-section-four img {
+  width: 42rem;
+  object-fit: cover;
+}
+
+.smile-section-four h2 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.smile-section-four p {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 75%);
+}
+
+.competitive-txt {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.space-p {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.orders-list p {
+  margin-left: 2rem;
+  position: relative;
+}
+
+.orders-list p::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 75%);
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  position: absolute;
+  left: -2rem;
+  top: 1.4rem;
+}
+
+.horizontal-line {
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+  width: 25vw;
+  height: 0.2rem;
+  background-color: #c4c4c4;
+}
+/******************** END OF SECTION FOUR ********************/
+
+/************************ SECTION FIVE ***********************/
+.smile-section-five {
+  background-color: rgba(64, 87, 124, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.smile-section-five h2 {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.smile-section-five p {
+  padding-bottom: 7rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.left-circle-img {
+  position: absolute;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 40%);
+  right: -20rem;
+  top: 10rem;
+}
+
+.right-circle-img {
+  position: absolute;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 40%);
+  left: -20rem;
+  top: 50%;
+}
+/******************** END OF SECTION FIVE ********************/
