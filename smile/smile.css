@@ -333,13 +333,14 @@ p {
 
 .smile-section-five h2 {
   padding-top: 5rem;
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 
 .smile-section-five p {
   padding-bottom: 7rem;
   padding-left: 10rem;
   padding-right: 10rem;
+  font-weight: 400;
 }
 
 .left-circle-img {
@@ -362,3 +363,28 @@ p {
   top: 50%;
 }
 /******************** END OF SECTION FIVE ********************/
+
+/************************ SECTION SIX ***********************/
+.smile-section-six {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smile-section-six h2 {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.smile-section-six p {
+  padding-bottom: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-weight: 400;
+}
+
+.smile-section-six img {
+  width: 100%;
+}
+
+/******************** END OF SECTION SIX ********************/
