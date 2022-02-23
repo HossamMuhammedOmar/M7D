@@ -467,3 +467,43 @@ img {
   width: 90%;
 }
 /******************** END OF SECTION NINE ********************/
+
+/************************ SECTION TEN ***********************/
+.smile-section-ten {
+  background-color: white;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+/******************** END OF SECTION TEN ********************/
+
+/************************ SECTION 11 ***********************/
+.smile-section-11 {
+  background-color: #f0f2f5;
+  position: relative;
+}
+
+.smile-section-11 .home-page-image {
+  width: 50vw;
+  margin-bottom: 10rem;
+}
+
+.smile-section-11 h2 {
+  padding: 10rem 0;
+}
+
+.smile-section-11 p {
+  padding-bottom: 10rem;
+}
+
+/******************** END OF SECTION 11 ********************/
+
+/************************ SECTION 12 ***********************/
+.smile-section-12 {
+  margin-top: 5rem;
+}
+
+.smile-section-12 h2 {
+  text-align: center;
+}
+/******************** END OF SECTION 12 ********************/
