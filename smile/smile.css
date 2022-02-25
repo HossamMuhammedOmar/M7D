@@ -508,8 +508,8 @@ img {
 }
 /******************** END OF SECTION 12 ********************/
 
-/************************ SECTION 13 ***********************/
-.smile-section-13 .boxes-container {
+/************************ SECTION 15 ***********************/
+.smile-section-15 .boxes-container {
   display: flex;
   margin-top: 5rem;
   justify-content: space-between;
@@ -579,3 +579,48 @@ img {
   position: absolute;
 }
 /******************** END OF SECTION 13 ********************/
+
+/************************ SECTION 16 ***********************/
+.smile-section-16 {
+  background-color: #f0f2f5;
+}
+
+.smile-section-16 h2 {
+  margin-top: 1rem;
+}
+
+.smile-section-16 .images-container {
+  margin: 5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.smile-section-16 .images-container img {
+  width: 15vw;
+  object-fit: cover;
+}
+
+.shapes {
+  background-color: rgba(228, 230, 231, 0.637);
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  border-radius: 30%;
+  transform: rotate(45deg);
+  left: 0rem;
+  top: 10rem;
+}
+
+.shapes2 {
+  background-color: rgba(228, 230, 231, 0.637);
+  width: 50rem;
+  height: 40rem;
+  position: absolute;
+  border-radius: 30%;
+  transform: rotate(45deg);
+  right: 10rem;
+  top: 10rem;
+}
+/******************** END OF SECTION 16 ********************/
