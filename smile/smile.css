@@ -643,6 +643,7 @@ img {
 /************************ SECTION 18 ***********************/
 .smile-section-18 {
   background-color: #fff;
+  margin-bottom: 5rem;
 }
 
 .smile-section-18 .header-18 {
@@ -668,3 +669,15 @@ img {
   right: -8rem;
 }
 /******************** END OF SECTION 18 ********************/
+
+/************************ SECTION 19 ***********************/
+.smile-section-19 {
+  background-color: #f0f4f6;
+  padding: 10rem 0;
+  height: 100vh;
+}
+
+.smile-section-19 img {
+  width: 20%;
+}
+/******************** END OF SECTION 19 ********************/
