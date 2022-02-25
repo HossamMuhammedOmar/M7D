@@ -507,3 +507,75 @@ img {
   text-align: center;
 }
 /******************** END OF SECTION 12 ********************/
+
+/************************ SECTION 13 ***********************/
+.smile-section-13 .boxes-container {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.boxes-container .box-one,
+.box-two {
+  display: flex;
+  flex-direction: column;
+  width: 70rem;
+  background-color: #f0f2f5;
+  margin-bottom: 10rem;
+  border: 0.5rem solid transparent;
+  border-image: linear-gradient(
+    45deg,
+    rgb(82, 137, 211),
+    rgba(255, 112, 0, 30%),
+    rgb(39, 39, 112)
+  );
+  border-image-slice: 1;
+}
+
+.boxes-container .box-one {
+  margin-left: 10rem;
+  margin-right: 1rem;
+}
+
+.boxes-container .box-two {
+  margin-right: 10rem;
+  margin-left: 1rem;
+}
+.boxes-container .box-one h4,
+.box-two h4 {
+  align-self: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 4rem 0;
+}
+
+.boxes-container .box-one p:last-child {
+  margin-bottom: 5rem;
+}
+
+.boxes-container p {
+  position: relative;
+  padding-left: 8rem;
+  margin-bottom: 1rem;
+}
+
+.boxes-container .box-one p,
+.box-two p {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.boxes-container .box-one p::before,
+.boxes-container .box-two p::before {
+  content: "";
+  width: 1.2rem;
+  height: 1.2rem;
+  background: linear-gradient(#0500f8, #fc7d1a);
+  border-radius: 50%;
+  opacity: 0.75;
+  left: 4rem;
+  top: 0.9rem;
+  position: absolute;
+}
+/******************** END OF SECTION 13 ********************/
