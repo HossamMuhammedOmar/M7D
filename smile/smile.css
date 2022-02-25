@@ -639,3 +639,32 @@ img {
   width: 45%;
 }
 /******************** END OF SECTION 17 ********************/
+
+/************************ SECTION 18 ***********************/
+.smile-section-18 {
+  background-color: #fff;
+}
+
+.smile-section-18 .header-18 {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.smile-section-18 .book-img {
+  width: 60%;
+}
+
+.smile-section-18 .brush {
+  position: absolute;
+  width: 25rem;
+  top: -1rem;
+  left: -11rem;
+}
+
+.smile-section-18 .resha {
+  position: absolute;
+  width: 10rem;
+  top: 1.5rem;
+  right: -8rem;
+}
+/******************** END OF SECTION 18 ********************/
