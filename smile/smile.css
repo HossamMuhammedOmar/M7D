@@ -624,3 +624,18 @@ img {
   top: 10rem;
 }
 /******************** END OF SECTION 16 ********************/
+
+/************************ SECTION 17 ***********************/
+.smile-section-17 {
+  margin-top: 5rem;
+  background-color: #f0f4f6;
+}
+
+.smile-section-17 h2 {
+  margin-top: 3rem;
+}
+
+.smile-section-17 img {
+  width: 45%;
+}
+/******************** END OF SECTION 17 ********************/
