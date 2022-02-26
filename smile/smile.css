@@ -712,3 +712,84 @@ img {
   color: #065a60;
 }
 /******************** END OF SECTION 20 ********************/
+
+/************************ SECTION 21 ***********************/
+
+.smile-section-21 .boxes-container .box-one p::before {
+  display: none;
+  visibility: hidden;
+}
+
+.smile-section-21 .box-one {
+  margin: 0;
+}
+
+.smile-section-21 .boxes-container {
+  margin-bottom: 20rem;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+.smile-section-21 .boxes-container .p-wrapper {
+  position: relative;
+}
+
+.smile-section-21 .boxes-container .p-wrapper .p-one {
+  margin-top: 6rem;
+  margin-bottom: 0;
+  padding-left: 6rem;
+}
+
+.smile-section-21 .boxes-container .p-wrapper .p-two {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-left: 6rem;
+}
+
+.smile-section-21 .boxes-container .p-wrapper .p-one::after {
+  content: "1";
+  width: 2.1rem;
+  height: 2.1rem;
+  background: linear-gradient(#0500f8, #fc7d1a);
+  border-radius: 50%;
+  color: #fff;
+  left: 2rem;
+  top: 0.5rem;
+  font-size: 1.1rem;
+  opacity: 75%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0.2rem 0.2rem 0.2rem #000;
+}
+
+.smile-section-21 .boxes-container .p-wrapper .p-two::after {
+  content: "2";
+  width: 2.1rem;
+  height: 2.1rem;
+  background: linear-gradient(#0500f8, #fc7d1a);
+  border-radius: 50%;
+  color: #fff;
+  left: 2rem;
+  top: 0.5rem;
+  font-size: 1.2rem;
+  opacity: 75%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-shadow: 0.2rem 0.2rem 0.2rem #000;
+}
+
+.smile-section-21 img {
+  width: 13rem;
+  object-fit: cover;
+  margin-bottom: 20rem;
+}
+
+/******************** END OF SECTION 21 ********************/
