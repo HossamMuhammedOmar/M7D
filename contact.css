@@ -1,0 +1,45 @@
+/******************** CONTACT ********************/
+.contact {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+}
+
+.left-side {
+  width: 40%;
+  height: 80vh;
+  box-shadow: 0.2rem 0.5rem 0.4rem rgba(0, 0, 0, 13%);
+  margin-top: 10vh;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background: linear-gradient(
+    #dcdcdc,
+    #f5eff1,
+    #faf7f7,
+    rgba(221, 228, 230, 92.2%),
+    rgba(185, 218, 222, 85.78%),
+    rgba(128, 168, 172, 66.5%),
+    rgba(6, 90, 96, 47%),
+    rgba(6, 90, 96, 54%),
+    rgba(6, 90, 96, 77%)
+  );
+  border-radius: 0 1rem 1rem 0;
+}
+
+.circle-contact {
+  background-color: white;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 40vh);
+}
+
+.phone-contact {
+  position: absolute;
+  left: calc(50% - 40vh);
+  top: 60vh;
+}

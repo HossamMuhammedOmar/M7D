@@ -1,0 +1,36 @@
+@import url("../smile/smile.css");
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+/******************** SECTION ONE ********************/
+
+.taswaq-section-one {
+  background: linear-gradient(
+    to left,
+    #f9a826,
+    rgba(255, 205, 63, 72%),
+    rgba(253, 201, 54, 19.03%),
+    rgba(252, 200, 51, 0%)
+  );
+}
+
+.mockup-header {
+  width: 65rem;
+  top: -5rem;
+  z-index: 0;
+}
+
+.mockup-header:hover {
+  transform: translateY(0);
+  filter: none;
+}
+
+.hint {
+  right: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
