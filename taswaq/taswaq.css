@@ -5,6 +5,14 @@ header {
   z-index: 2;
 }
 
+img {
+  user-select: none;
+}
+
+h2 {
+  font-weight: 500;
+}
+
 /******************** SECTION ONE ********************/
 
 .taswaq-section-one {
@@ -34,3 +42,307 @@ header {
   font-weight: bold;
   color: black;
 }
+
+/******************** END OF SECTION ONE ********************/
+
+/***********************  SECTION TWO **********************/
+.taswaq-section-two {
+  overflow: hidden;
+}
+.circle-background-right {
+  background-color: rgba(252, 125, 26, 9%);
+  width: 30rem;
+  height: 30rem;
+  right: 30%;
+  top: 60vh;
+}
+
+.circle-background-left {
+  background-color: rgba(252, 125, 26, 9%);
+  width: 40rem;
+  height: 40rem;
+  left: 20%;
+  top: 70vh;
+}
+
+.project-preview img {
+  width: 40vw;
+  position: relative;
+}
+
+.project-preview img:hover {
+  transform: scale(1);
+  filter: none;
+}
+
+.project-preview:hover .stars {
+  animation: rotate infinite 15s;
+}
+
+.stars {
+  position: absolute;
+  top: 50rem;
+  left: 20%;
+  z-index: -1;
+}
+
+.stars img {
+  width: 60vw;
+}
+
+.preview-wrapper {
+  margin-top: 10rem;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/******************** END OF SECTION TWO ********************/
+
+/***********************  SECTION THREE **********************/
+.smile-section-three {
+  background-color: #ffe69f;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.tasawq-section-three p {
+  padding-top: 3rem;
+  line-height: 3.3rem;
+  font-weight: 400;
+  opacity: 75%;
+}
+/******************** END OF SECTION THREE ********************/
+
+/***********************  SECTION FOUR **********************/
+.tasawq-section-four {
+  background-color: white;
+  padding-top: 10rem;
+  position: relative;
+}
+
+.tasawq-section-four p {
+  opacity: 74%;
+  padding: 0 20rem;
+  line-height: 4rem;
+}
+
+.tasawq-section-four img {
+  margin-left: 25rem;
+}
+
+.tasawq-circle-background-right {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-color: #fc7d1a;
+  opacity: 7%;
+  top: 30rem;
+  right: 10rem;
+}
+
+.tasawq-circle-background-left {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-color: #fc7d1a;
+  opacity: 7%;
+  top: -5rem;
+  left: -10rem;
+}
+/******************** END OF SECTION FOUR ********************/
+
+/***********************  SECTION FIVE **********************/
+.tasawq-section-five {
+  background: #ffe69f;
+}
+
+.tasawq-section-five p {
+  opacity: 75%;
+  padding-bottom: 5rem;
+}
+
+.tasawq-section-five img {
+  width: auto;
+  padding-bottom: 10rem;
+}
+/******************** END OF SECTION FIVE ********************/
+
+/***********************  SECTION SIX **********************/
+
+.tasawq-section-six {
+  background-color: #ffe69f;
+  margin-top: 5rem;
+}
+
+.tasawq-section-six p {
+  opacity: 75%;
+}
+/******************** END OF SECTION SIX ********************/
+
+/***********************  SECTION SEVEN **********************/
+.tasawq-section-seven {
+  background-color: white;
+}
+
+.tasawq-section-seven img {
+  width: 70vw;
+}
+
+.tasawq-section-seven .horizontal-line {
+  margin-top: 10rem;
+}
+/******************** END OF SECTION SEVEN ********************/
+
+/***********************  SECTION EIGHT **********************/
+.tasawq-section-eight p {
+  opacity: 75%;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-bottom: 5rem;
+}
+/******************** END OF SECTION EIGHT ********************/
+
+/***********************  SECTION NINE **********************/
+.tasawq-section-nine {
+  background-color: rgba(255, 230, 159, 56%);
+}
+
+.tasawq-section-nine h2 {
+  opacity: 85%;
+}
+/******************** END OF SECTION NINE ********************/
+
+/***********************  SECTION TEN **********************/
+.tasawq-section-ten {
+  background-color: rgba(255, 230, 159, 70%);
+}
+
+.tasawq-section-ten h2 {
+  opacity: 85%;
+}
+/******************** END OF SECTION TEN ********************/
+
+/***********************  SECTION 11 **********************/
+.tasawq-section-11 {
+  background-color: rgba(255, 230, 159, 56%);
+}
+
+.tasawq-section-11 h2 {
+  opacity: 85%;
+}
+/******************** END OF SECTION 11 ********************/
+
+/***********************  SECTION 12 **********************/
+.tasawq-section-12 {
+  background-color: rgba(255, 230, 159, 70%);
+}
+
+.tasawq-section-12 h2 {
+  opacity: 85%;
+}
+/******************** END OF SECTION 12 ********************/
+
+/***********************  SECTION 13 **********************/
+.tasawq-section-13 h2 {
+  margin-top: 10rem;
+}
+
+.tasawq-section-13 p {
+  font-size: 2.3rem;
+  opacity: 75%;
+  padding: 0 20rem;
+}
+
+.tasawq-section-13 img {
+  width: auto;
+}
+/******************** END OF SECTION 13 ********************/
+
+/***********************  SECTION 14 **********************/
+.tasawq-section-14 {
+  background-color: #ffe69f;
+}
+
+.tasawq-section-14 img {
+  width: auto;
+  padding-bottom: 8rem;
+}
+
+.tasawq-section-14 h2 {
+  padding-bottom: 2rem;
+}
+
+.tasawq-section-14 p {
+  padding-bottom: 8rem;
+}
+/******************** END OF SECTION 14 ********************/
+
+/***********************  SECTION 15 **********************/
+.tasawq-section-15 .top-guide {
+  margin-top: 10rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tasawq-section-15 h4 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #000;
+  opacity: 60%;
+}
+
+.tasawq-section-15 .colors-style {
+  margin-top: 5rem;
+  width: 9rem;
+  text-align: center;
+  display: inline-block;
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  color: rgba(0, 0, 0, 0.788);
+  transition: all 0.2s ease;
+}
+
+.tasawq-section-15 .color-1 {
+  background-color: #f9a826;
+}
+
+.tasawq-section-15 .color-2 {
+  background-color: #fde39a;
+}
+
+.tasawq-section-15 .color-3 {
+  background-color: #b8b8b8;
+}
+
+.tasawq-section-15 .color-4 {
+  background-color: #ffffff;
+  border: 0.1rem #eee solid;
+}
+
+.tasawq-section-15 .color-5 {
+  background-color: #000000;
+  color: #e7e7e7cb;
+}
+
+.tasawq-section-15 .color-6 {
+  background-color: #777373;
+}
+
+.colors-style:hover {
+  transform: translateY(-0.5rem) rotate(3deg);
+  box-shadow: 0.5rem 0.5rem 0.8rem #999;
+  border-radius: 0;
+}
+/******************** END OF SECTION 15 ********************/ ;
