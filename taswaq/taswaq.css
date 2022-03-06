@@ -505,4 +505,15 @@ h2 {
 .tasawq-section-15 .down-guide .buttons h4 {
   margin-bottom: 10rem;
 }
-/******************** END OF SECTION 15 ********************/ ;
+/******************** END OF SECTION 15 ********************/
+
+/***********************  SECTION 16 **********************/
+.tasawq-section-16 {
+  margin-top: 20rem;
+}
+
+.tasawq-section-16 img {
+  width: 100%;
+  object-fit: cover;
+}
+/******************** END OF SECTION 16 ********************/
