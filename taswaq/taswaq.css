@@ -1,4 +1,5 @@
 @import url("../smile/smile.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 header {
   position: relative;
@@ -290,6 +291,7 @@ h2 {
   margin-top: 10rem;
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -344,5 +346,107 @@ h2 {
   transform: translateY(-0.5rem) rotate(3deg);
   box-shadow: 0.5rem 0.5rem 0.8rem #999;
   border-radius: 0;
+}
+
+.tasawq-section-15 .type-group:first-child {
+  margin-top: 10rem;
+}
+
+.tasawq-section-15 .type-guide {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tasawq-section-15 .type-guide h4 {
+  margin-left: 10rem;
+  margin-bottom: 6rem;
+}
+
+.tasawq-section-15 .type-guide p {
+  font-size: 1.7rem;
+}
+
+.tasawq-section-15 .type-group {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.tasawq-section-15 .type-guide .type-guide-left .type-group:first-of-type h5 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.tasawq-section-15
+  .type-guide
+  .type-guide-left
+  .type-group:nth-last-of-type(2) {
+  margin-top: 1.5rem;
+}
+
+.tasawq-section-15
+  .type-guide
+  .type-guide-left
+  .type-group:nth-last-of-type(2)
+  h5 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.tasawq-section-15 .type-guide .type-guide-left .type-group:nth-of-type(3) h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.tasawq-section-15 .type-guide .type-guide-left .type-group:nth-of-type(3) {
+  margin-top: 1.5rem;
+}
+
+.tasawq-section-15 .type-guide .type-guide-right .type-group:first-of-type h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.tasawq-section-15
+  .type-guide
+  .type-guide-right
+  .type-group:nth-last-of-type(2) {
+  margin-top: 2rem;
+}
+
+.tasawq-section-15
+  .type-guide
+  .type-guide-right
+  .type-group:nth-last-of-type(2)
+  h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.tasawq-section-15 .type-guide .type-guide-right .type-group:nth-of-type(3) h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.tasawq-section-15 .type-guide .type-guide-right .type-group:nth-of-type(3) {
+  margin-top: 3rem;
 }
 /******************** END OF SECTION 15 ********************/ ;
