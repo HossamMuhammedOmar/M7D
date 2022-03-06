@@ -517,3 +517,32 @@ h2 {
   object-fit: cover;
 }
 /******************** END OF SECTION 16 ********************/
+
+/***********************  SECTION 17 **********************/
+.tasawq-section-17 h2 {
+  margin-top: 5rem;
+  padding: 0;
+}
+
+.tasawq-section-17 p {
+  padding: 0 30rem;
+  opacity: 70%;
+}
+
+.tasawq-section-17 img {
+  margin-top: 30rem;
+  width: auto;
+}
+/******************** END OF SECTION 17 ********************/
+
+.taswaq-footer {
+  background-color: #fc7d1a;
+}
+
+.taswaq-footer p {
+  font-weight: 400;
+}
+
+.taswaq-footer .social-container-footer i {
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(85, 77, 77, 0.425);
+}
