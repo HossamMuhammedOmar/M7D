@@ -34,11 +34,7 @@
 .project-link:nth-child(2) {
   width: 50%;
   height: 50%;
-  background-image: linear-gradient(
-      rgba(85, 149, 234, 50%),
-      rgba(85, 149, 234, 50%)
-    ),
-    url("images/p2.jpg");
+  background-color: #05051f;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,11 +42,7 @@
 .project-link:nth-child(3) {
   width: 50%;
   height: 50%;
-  background-image: linear-gradient(
-      rgba(255, 189, 0, 50%),
-      rgba(255, 189, 0, 37%)
-    ),
-    url("/images/p3.jpg");
+  background-color: #ffc304;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
