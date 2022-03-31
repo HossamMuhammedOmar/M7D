@@ -169,6 +169,6 @@
 }
 
 .form-wrapper .send-form:hover {
-  transform: translateY(0.5rem);
+  transform: translateY(0.3rem);
   box-shadow: none;
 }
