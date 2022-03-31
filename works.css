@@ -11,6 +11,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+.project-link img {
+  transition: all 0.2s;
 }
 
 .logo-project {
@@ -24,8 +29,8 @@
   width: 50%;
   height: 50%;
   background-image: linear-gradient(
-      rgba(85, 149, 234, 50%),
-      rgba(85, 149, 234, 50%)
+      rgba(47, 136, 252, 0.5),
+      rgba(6, 91, 202, 0.555)
     ),
     url("images/shapes1.png");
   background-repeat: no-repeat;
@@ -35,21 +40,12 @@
   width: 50%;
   height: 50%;
   background-color: #05051f;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .project-link:nth-child(3) {
   width: 50%;
   height: 50%;
   background-color: #ffc304;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.logo-project img {
-  margin-right: 10rem;
 }
 
 .project-link:nth-child(4) {
@@ -60,4 +56,9 @@
       rgba(246, 32, 32, 69%)
     ),
     url("images/shapes4.png");
+}
+
+.project-link:hover img {
+  transform: scale(1.1) rotate(-10deg);
+  object-fit: cover;
 }
