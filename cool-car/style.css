@@ -1,0 +1,945 @@
+/*** GOOGLE FONT ***/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Yeseva+One&family=Zen+Tokyo+Zoo&display=swap");
+
+/*** Default Style ***/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #05051f;
+  font-family: "Roboto", sans-serif;
+
+  overflow-x: hidden;
+}
+
+/*** Heading @ NavBar ***/
+header {
+  padding-left: 4em;
+
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-top: 2em;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo .logo-left-part,
+.logo .logo-right-part {
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-size: 3.7em;
+}
+
+.logo-left-part {
+  color: #8f17a8;
+}
+
+.logo-right-part {
+  color: #252ba4;
+  position: absolute;
+  left: 0.53em;
+}
+
+nav {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 1.3em;
+  color: white;
+  user-select: none;
+}
+
+/*** SECTION ONE ***/
+.section-one {
+  padding-left: 4em;
+  height: calc(100vh - 103px);
+  color: white;
+  padding-top: 15em;
+}
+
+.section-one h1 {
+  font-size: 6.5em;
+  font-weight: normal;
+  font-family: "Zen Tokyo Zoo", cursive;
+  margin-bottom: 0.4em;
+}
+
+.section-one h1::first-letter {
+  color: #252ba4;
+}
+
+.section-one h1 span {
+  color: #8f17a8;
+}
+
+.section-one p {
+  font-family: "Yeseva One", cursive;
+  width: 25em;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  margin-bottom: 3em;
+  font-size: 1.2em;
+}
+
+.section-one button {
+  color: #05051f;
+  padding: 0.6em 6em;
+  font-size: 1.3em;
+  font-family: "Yeseva One", cursive;
+  border: 4px solid transparent;
+  border-image: linear-gradient(
+    rgba(184, 106, 200, 1),
+    rgba(184, 106, 200, 0.85),
+    rgba(208, 157, 219, 0.77),
+    rgba(229, 199, 235, 0.69),
+    rgba(49, 56, 185, 1),
+    rgba(58, 65, 205, 1),
+    rgba(79, 84, 183, 1)
+  );
+  border-image-slice: 1;
+  cursor: pointer;
+}
+
+.section-one .bg-absolute-1,
+.section-one .bg-absolute-2 {
+  position: absolute;
+  z-index: -1;
+}
+
+.section-one .bg-absolute-1 {
+  top: -70px;
+  right: -530px;
+  animation: rotate 40s infinite;
+  transform-origin: center;
+}
+
+.section-one .bg-absolute-2 {
+  top: 4em;
+  right: -8em;
+  animation: move 2s infinite;
+}
+
+/*** SECTION TWO ***/
+.section-two {
+  margin-top: 10em;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+}
+
+.section-two {
+  font-size: 2em;
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
+  color: white;
+}
+
+.section-two h2 {
+  margin-bottom: 10px;
+}
+
+.section-two::first-letter {
+  color: #dd43fd;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: normal;
+}
+
+.serv-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.right-serv {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.right-serv-bg-blur {
+  width: 104%;
+  height: 6em;
+  background-color: #ff39c8;
+  filter: blur(11px);
+  margin-top: 3em;
+  position: absolute;
+  transform: skew(30deg);
+  left: -2em;
+}
+
+.right-serv-bg-black {
+  background: rgba(0, 0, 0, 0.51);
+  position: absolute;
+  width: 104%;
+  height: 6em;
+  margin-top: 3em;
+  transform: skew(30deg);
+  left: -2em;
+}
+
+.section-two h3 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 134%;
+  margin-top: 130px;
+  margin-left: 50px;
+  z-index: 1;
+  letter-spacing: 2px;
+  text-shadow: 0px 0.854941px 3.41976px rgba(0, 0, 0, 0.79);
+}
+
+.section-two p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 134%;
+  margin-left: 50px;
+  margin-top: 20px;
+  z-index: 1;
+  letter-spacing: 2px;
+  width: 60%;
+}
+
+.left-serv {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.left-serv-bg-blur {
+  width: 104%;
+  height: 6em;
+  background: #212bf8;
+  filter: blur(11px);
+  margin-top: 3em;
+  position: absolute;
+  transform: skew(30deg);
+  right: -2em;
+}
+
+.left-serv-bg-black {
+  background: rgba(0, 0, 0, 0.51);
+  position: absolute;
+  width: 104%;
+  height: 6em;
+  margin-top: 3em;
+  transform: skew(30deg);
+  right: -2em;
+}
+
+.left-serv h3,
+.left-serv p {
+  margin-left: 150px;
+}
+
+.circle-img {
+  position: absolute;
+  top: 60%;
+  right: 40px;
+  z-index: 1;
+}
+
+/*** SECTION THREE ***/
+.section-three {
+  margin-top: 7em;
+  font-size: 2em;
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.section-three h2 {
+  margin-bottom: 2em;
+  z-index: 2;
+  position: relative;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.91);
+  letter-spacing: 0.03em;
+}
+
+.section-three h2::first-letter {
+  color: #dd43fd;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: normal;
+}
+
+.blur-bg-three {
+  background: linear-gradient(
+    270deg,
+    #8f17a8 0%,
+    #3a41cd 13.29%,
+    rgba(184, 106, 200, 0.854167) 23.24%,
+    #3a41cd 29.68%,
+    rgba(151, 138, 221, 0.832332) 39.77%,
+    rgba(229, 199, 235, 0.692708) 49.02%,
+    #05051f 53.41%,
+    rgba(5, 5, 31, 0) 68.61%,
+    rgba(5, 5, 31, 0) 100%
+  );
+  filter: blur(235px);
+  position: absolute;
+  width: 2727px;
+  height: 452px;
+  top: 250px;
+  left: -60%;
+}
+
+.package-column-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.package-container {
+  background-color: white;
+  width: 400px;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: #05051f;
+  text-align: left;
+  padding: 40px;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.package-container:hover {
+  background-color: #05051f27;
+  color: white;
+}
+
+.package-container h4 {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.package-container p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.package-container span:first-of-type {
+  font-size: 25px;
+  margin-right: 6px;
+}
+
+.package-row-container {
+  margin-bottom: 2em;
+}
+
+.package-row-container p {
+  display: flex;
+  justify-content: space-around;
+}
+
+.package-container span {
+  margin-right: 8px;
+}
+
+.package-row-container span:nth-child(2) {
+  width: 80%;
+  font-weight: normal;
+}
+.package-container span .dollar {
+  color: #128400;
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+/*** SECTION FOUR ***/
+.section-four {
+  width: 100%;
+  margin-top: 10em;
+  background-image: url("images/carBG.png");
+  background-size: cover;
+  height: 100vh;
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+}
+
+.section-four h2 {
+  color: white;
+  padding: 2em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.91);
+  letter-spacing: 0.03em;
+}
+
+.section-four h2::first-letter {
+  color: #dd43fd;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: normal;
+}
+
+.section-four .cards {
+  display: flex;
+  justify-content: center;
+}
+
+.car-card-container {
+  width: 421.54px;
+  height: 502.28px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    111deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 237, 237, 1) 100%
+  );
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.445);
+}
+
+.bg-card-black {
+  width: 421.54px;
+  height: 323.66px;
+  position: absolute;
+  background-color: #1c1c1cd2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  visibility: hidden;
+  transition: all 0.2s;
+}
+
+.car-card-detail {
+  color: #dedede;
+  font-size: 20px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  padding: 1em;
+  transform: scale(0);
+  visibility: hidden;
+}
+
+.car-card-detail::first-letter {
+  color: #dd43fd;
+  font-size: 30px;
+  font-family: "Zen Tokyo Zoo";
+}
+
+.car-card-container img {
+  width: 421.54px;
+  height: 323.66px;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+  transition: all 0.4s;
+}
+
+.car-card-container:hover.car-card-container .bg-card-black {
+  transform: scale(1);
+  visibility: visible;
+}
+
+.car-card-container:hover.car-card-container .car-card-detail {
+  transform: scale(1);
+  visibility: visible;
+  transition: all 0.3s 0.3s;
+}
+
+/* .car-card-container:hover.car-card-container .product-price {
+  transform: scale(1.4);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
+} */
+
+.car-card-container h4,
+.car-card-container .product-price,
+.all-products {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+}
+
+.car-card-container h4 {
+  font-weight: bold;
+  font-size: 29px;
+  text-transform: uppercase;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  background-color: #dedede3b;
+}
+
+.car-card-container .product-price::first-letter {
+  color: #128400;
+}
+
+.car-card-container p {
+  margin-top: 1em;
+  transition: all 0.3s;
+}
+
+.all-products {
+  margin-top: 4.1em;
+  padding: 0.5em 2em;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 421.54px;
+  border-radius: 5px;
+}
+
+.all-products:hover {
+  background-color: rgba(255, 255, 255, 0.932);
+}
+
+/*** SECTION FIVE ***/
+.section-five {
+  margin-top: 3em;
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto";
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  position: relative;
+}
+
+.bg-img-five {
+  position: absolute;
+  top: -3em;
+  left: 0;
+  z-index: -1;
+}
+
+.section-five h2 {
+  font-family: "Yeseva One", cursive;
+  color: white;
+  padding: 2.5em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.91);
+  letter-spacing: 0.03em;
+}
+
+.section-five h2::first-letter {
+  color: #dd43fd;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: normal;
+}
+
+.section-five p {
+  padding: 1em 13em;
+  font-size: 22px;
+}
+
+.section-five p:nth-child(4) {
+  padding: 1em 20em;
+}
+
+.section-five p:nth-child(5) {
+  padding: 1em 25em;
+}
+
+/*** SECTION SIX ***/
+
+.section-six {
+  margin-top: 2em;
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto";
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  position: relative;
+}
+
+.section-six h2 {
+  font-family: "Yeseva One", cursive;
+  color: white;
+  padding: 2.5em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.91);
+  letter-spacing: 0.03em;
+}
+
+.section-six h2::first-letter {
+  color: #dd43fd;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: normal;
+}
+
+.coma {
+  color: #dd43fd;
+  font-weight: normal;
+}
+
+.image-container {
+  position: relative;
+  margin-top: 80px;
+}
+
+.section-six img {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.image-container .user-one-container .circle1,
+.image-container .user-one-container .circle2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  background: linear-gradient(180deg, #ff39c8 0%, #294fff 100%);
+  filter: blur(20px);
+  right: 44%;
+  top: 30px;
+}
+
+.image-container .user-one-container .circle2 {
+  filter: blur(40px);
+}
+
+.image-container .user-one-container p {
+  font-size: 17px;
+  width: 700px;
+  height: 93px;
+  text-align: left;
+  position: absolute;
+  right: 30.5%;
+  top: 370px;
+  font-weight: 500;
+  line-height: 141.5%;
+  letter-spacing: 0.09em;
+}
+
+.section-six .user1 {
+  right: 44%;
+  top: 30px;
+}
+
+.image-container .user-two-container .circle1,
+.image-container .user-two-container .circle2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(180deg, #ff39c8 0%, #294fff 100%);
+  filter: blur(20px);
+  right: -70px;
+  top: 200px;
+}
+
+.image-container .user-two-container p {
+  font-size: 13px;
+  width: 420px;
+  height: 93px;
+  text-align: left;
+  position: absolute;
+  right: -170px;
+  top: 420px;
+  font-weight: 500;
+  line-height: 141.5%;
+  letter-spacing: 0.09em;
+  filter: blur(4px);
+}
+
+.section-six .user2 {
+  right: -70px;
+  top: 200px;
+  width: 150px;
+  height: 150px;
+  filter: blur(4px);
+}
+
+.image-container .user-three-container .circle1,
+.image-container .user-three-container .circle2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(180deg, #ff39c8 0%, #294fff 100%);
+  filter: blur(20px);
+  left: -70px;
+  top: 200px;
+}
+
+.image-container .user-three-container p {
+  font-size: 13px;
+  width: 420px;
+  height: 93px;
+  text-align: right;
+  position: absolute;
+  left: -170px;
+  top: 420px;
+  font-weight: 500;
+  line-height: 141.5%;
+  letter-spacing: 0.09em;
+  filter: blur(4px);
+}
+
+.section-six .user3 {
+  left: -70px;
+  top: 200px;
+  width: 150px;
+  height: 150px;
+  filter: blur(4px);
+}
+
+/*** SECTION SEVEN ***/
+.section-seven {
+  margin-top: 6em;
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto";
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  position: relative;
+}
+
+.section-seven h2 {
+  font-family: "Yeseva One", cursive;
+  color: white;
+  padding: 2.5em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.91);
+  letter-spacing: 0.03em;
+}
+
+.section-seven h2::first-letter {
+  color: #dd43fd;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: normal;
+}
+
+.contact-container {
+  display: flex;
+  width: 100%;
+  height: 66vh;
+  margin-top: 30px;
+}
+
+.contact-info {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #767375;
+  outline: none;
+  background-color: transparent;
+  resize: none;
+  font-family: "Roboto";
+  font-style: normal;
+  width: 534px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.34);
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+input:focus {
+  outline: none; /* Removes the border when the input is clicked */
+  border-bottom: 1px solid #ff39c8;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+label {
+  user-select: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.social-container {
+  display: flex;
+  gap: 30px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.social-container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.social-container .icons {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #128400;
+  padding: 10px;
+  width: 40px;
+  border-radius: 50%;
+  transition: all 0.2s;
+  margin-right: 5px;
+}
+
+.social-container .facebook {
+  background-color: #4f579c;
+}
+
+.social-container .twitter {
+  background-color: #4aaae2;
+}
+
+.social-container .instagram {
+  background: #ff466f;
+}
+
+.social-container .icons:hover {
+  /* background-color: transparent; */
+  background: linear-gradient(#f8f8f810, #f8f8f81e);
+  border-radius: 10%;
+  transform: scale(1.2);
+}
+
+.contact-message {
+  width: 50%;
+  text-align: left;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-message p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.35);
+  padding-left: 40px;
+}
+
+.contact-message p::after {
+  content: "";
+  width: 1px;
+  height: 595px;
+  background-color: #ffffffb2;
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+
+.contact-message input {
+  margin-left: 40px;
+  margin-top: 27px;
+}
+
+.contact-message button {
+  padding: 20px;
+  height: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: #05051f;
+  background-color: #ff39c8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-message button:hover {
+  background-color: #f8f8f891;
+  /* background: linear-gradient(#f8f8f8a8, #f8f8f891); */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* @keyframes move {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+
+  50% {
+    transform: translateX(10px) translateY(10px);
+  }
+
+  75% {
+    transform: translateX(50px) translateY(-10px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+} */
