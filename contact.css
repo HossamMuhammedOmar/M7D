@@ -118,3 +118,57 @@
 .social-container-footer img:hover {
   transform: scale(1.2) translateY(-0.7rem);
 }
+
+.form-wrapper form {
+  width: 50rem;
+  height: 60rem;
+  box-shadow: 0px 0.962602px 3.85041px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.form-wrapper .mail-input {
+  margin-top: 5rem;
+  width: 100%;
+  height: 6rem;
+  background: #ededed;
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  box-shadow: inset 0px 1.9252px 2.92039px rgba(0, 0, 0, 0.15);
+}
+
+.form-wrapper .message-input {
+  width: 100%;
+  height: 30rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  background: #ededed;
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  resize: none;
+  box-shadow: inset 0px 1.9252px 2.92039px rgba(0, 0, 0, 0.15);
+}
+
+.form-wrapper .send-form {
+  border-radius: 2.5rem;
+  width: 13rem;
+  height: 5rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background: #065a60;
+  text-shadow: 0px 0.2rem 0.38rem rgba(0, 0, 0, 0.7);
+  line-height: 30px;
+  box-shadow: 0px 0.2rem 0.38rem rgba(0, 0, 0, 0.3);
+  transition: all 0.1s;
+}
+
+.form-wrapper .send-form:hover {
+  transform: translateY(0.5rem);
+  box-shadow: none;
+}
