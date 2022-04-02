@@ -25,7 +25,7 @@ html {
 
 /******************** HEADER ********************/
 header {
-  height: 10vh;
+  min-height: 10vh;
   background-color: var(--main);
   display: flex;
   justify-content: space-between;
@@ -94,9 +94,13 @@ header .active:hover {
 
 /******************** SECTION ONE ********************/
 .section-one {
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   margin-top: 10vh;
+}
+
+.section-one .tablet-v {
+  display: none;
 }
 
 .left-side {
@@ -175,3 +179,46 @@ h3 {
   margin-bottom: 20rem;
 }
 /******************** END OF SECTION ONE ************/
+
+/* RESPONSIVE */
+@media (max-width: 1300px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .section-one {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-one .bio,
+  .section-one button {
+    display: none;
+  }
+
+  .section-one .tablet-v,
+  .section-one .tablet-v button {
+    display: flex;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  img {
+    margin: 0;
+    padding: 0;
+  }
+}
