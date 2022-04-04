@@ -865,3 +865,9 @@ footer p:last-child {
 }
 
 /******************** END OF SECTION 21 ********************/
+
+@media (max-width: 980px) {
+  .diagram-one {
+    width: 90%;
+  }
+}

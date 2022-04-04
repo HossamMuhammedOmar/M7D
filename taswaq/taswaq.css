@@ -546,3 +546,34 @@ h2 {
 .taswaq-footer .social-container-footer i {
   box-shadow: 0.1rem 0.1rem 0.3rem rgba(85, 77, 77, 0.425);
 }
+
+@media (max-width: 1440px) {
+  .smile-section-six .t-diagram-two {
+    width: 80%;
+  }
+
+  .t-diagram-one {
+    width: 90%;
+  }
+  .smile-section-15 .t-show {
+    width: 80%;
+  }
+}
+
+@media (max-width: 980px) {
+  .t-diagram-one {
+    width: 90%;
+  }
+
+  .t-diagram-two {
+    width: 80%;
+  }
+
+  .smile-section-17 .t-final-img {
+    width: 90%;
+  }
+
+  .mockup-header {
+    display: none;
+  }
+}
