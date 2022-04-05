@@ -297,7 +297,6 @@ h2 {
   margin-top: 10rem;
   width: 80%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -545,6 +544,13 @@ h2 {
 
 .taswaq-footer .social-container-footer i {
   box-shadow: 0.1rem 0.1rem 0.3rem rgba(85, 77, 77, 0.425);
+}
+
+@media (max-width: 1850px) {
+  .tasawq-section-15 .top-guide {
+    width: 100%;
+    padding: 3rem;
+  }
 }
 
 @media (max-width: 1440px) {
