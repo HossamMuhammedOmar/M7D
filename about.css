@@ -61,3 +61,22 @@
   align-self: flex-start;
   margin-top: 3rem;
 }
+
+@media (max-width: 900px) {
+  .left-side {
+    display: none;
+  }
+
+  .section-three {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-side {
+    align-items: flex-start;
+  }
+
+  html {
+    font-size: 50%;
+  }
+}
