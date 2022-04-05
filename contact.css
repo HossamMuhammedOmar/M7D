@@ -172,3 +172,63 @@
   transform: translateY(0.3rem);
   box-shadow: none;
 }
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .circle-contact {
+    width: 30vh;
+    height: 30vh;
+    top: 50%;
+  }
+
+  .phone-img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1350px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 1215px) {
+  .circle-contact {
+    display: none;
+  }
+
+  .phone-img {
+    display: none;
+  }
+
+  .p-contact {
+    text-align: center;
+    margin-right: 1rem;
+  }
+
+  .gmail-contact-img {
+    display: none;
+  }
+
+  .linked-contact-img {
+    display: none;
+  }
+
+  .contact-wrapper {
+    margin-left: 1rem;
+  }
+
+  .footer-contact {
+    margin-left: 1rem;
+  }
+
+  .social-container-footer img {
+    width: 10%;
+    text-align: center;
+  }
+}
