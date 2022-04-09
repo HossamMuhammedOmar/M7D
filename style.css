@@ -320,3 +320,9 @@ h3 {
     margin-bottom: 3rem;
   }
 } */
+
+@media (max-width: 1600px) {
+  header .logo img {
+    width: 80%;
+  }
+}
