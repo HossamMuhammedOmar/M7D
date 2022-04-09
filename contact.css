@@ -216,6 +216,15 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .phone-contact {
+    top: 60vh;
+  }
+  .phone-img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1215px) {
   .circle-contact {
     display: none;
