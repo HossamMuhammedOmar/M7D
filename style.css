@@ -326,3 +326,7 @@ h3 {
     width: 80%;
   }
 }
+
+.disclaimer {
+  display: none;
+}
