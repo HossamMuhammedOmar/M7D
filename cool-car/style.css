@@ -12,7 +12,6 @@
 body {
   background-color: #05051f;
   font-family: "Roboto", sans-serif;
-
   overflow-x: hidden;
 }
 
@@ -62,6 +61,8 @@ nav a {
 
 /*** SECTION ONE ***/
 .section-one {
+  width: 100vw;
+  overflow-x: hidden;
   padding-left: 4em;
   height: calc(100vh - 103px);
   color: white;
@@ -946,7 +947,7 @@ input[type="checkbox"] {
   }
 } */
 
-@media (max-width: 1600px) {
+/* @media (max-width: 1600px) {
   .section-five p {
     padding: 1em 10em;
     font-size: 22px;
@@ -979,10 +980,6 @@ input[type="checkbox"] {
   }
 
   .section-one .bg-absolute-1 {
-    /* top: -70px;
-    right: -530px;
-    animation: rotate 40s infinite;
-    transform-origin: center; */
     width: 90%;
     top: 40px;
     right: -500px;
@@ -992,17 +989,199 @@ input[type="checkbox"] {
     width: 50%;
     right: -12rem;
     top: 9em;
-    /* top: 4em;
-    right: -8em;
-    animation: move 2s infinite; */
   }
 
   header {
     width: 80%;
   }
+} */
+
+/* RESPONSIVE */
+
+/*** 1920 ***/
+/* @media (max-width: 1920px) {
+  .section-one .bg-absolute-1 {
+    right: -735px;
+  }
+
+  .section-one .bg-absolute-2 {
+    right: -23em;
+  }
+} */
+
+/*** 1366 ***/
+@media (max-width: 1366px) {
+  header {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .section-one {
+    padding-top: 8em;
+  }
+
+  .section-one p {
+    font-size: 1em;
+  }
+
+  .section-one h1 {
+    font-size: 6em;
+  }
+
+  .section-one .bg-absolute-1 {
+    width: 90%;
+    top: -74px;
+    right: -350px;
+  }
+
+  .section-one .bg-absolute-2 {
+    width: 50%;
+    right: -9rem;
+    top: 3em;
+  }
+
+  .section-two {
+    margin-top: 7em;
+  }
+
+  .section-two h3 {
+    font-size: 22px;
+  }
+
+  .section-two p {
+    font-size: 14px;
+  }
+
+  .right-serv-bg-blur,
+  .right-serv-bg-black,
+  .left-serv-bg-blur,
+  .left-serv-bg-black {
+    height: 5em;
+  }
+
+  .section-three {
+    margin-top: 10em;
+  }
+
+  .blur-bg-three {
+    width: 2076px;
+  }
+
+  .section-four h2 {
+    font-size: 1.5em;
+  }
+
+  .car-card-container {
+    width: 332.54px;
+    height: 462.28px;
+  }
+
+  .car-card-container img {
+    width: 332.54px;
+    height: 286.66px;
+  }
+
+  .car-card-container h4 {
+    font-size: 22px;
+    margin-top: 1.5em;
+  }
+
+  .car-card-container .product-price {
+    font-size: 26px;
+  }
+
+  .bg-card-black {
+    width: 332.54px;
+    height: 286.66px;
+  }
+
+  .car-card-detail {
+    font-size: 16px;
+  }
+
+  .all-products {
+    width: 332.54px;
+    font-size: 24px;
+  }
+
+  .package-container {
+    font-size: 19px;
+  }
+  .section-five p {
+    padding: 1em 5em;
+    font-size: 22px;
+  }
+
+  .section-five p:nth-child(4) {
+    padding: 1em 10em;
+  }
+
+  .section-five p:nth-child(5) {
+    padding: 3em 15em;
+  }
+
+  .image-container .user-one-container .circle1,
+  .image-container .user-one-container .circle2,
+  .section-six .user1 {
+    right: 42%;
+  }
+
+  .image-container .user-one-container p {
+    font-size: 15px;
+    width: 600px;
+    right: 27.5%;
+    top: 353px;
+  }
+
+  .contact-container {
+    height: auto;
+  }
+
+  .contact-info {
+    margin-top: 149px;
+  }
+  /* -0.8em */
+  .contact-message {
+    margin-bottom: 0;
+    margin-top: -0.8em;
+    padding-top: 4em;
+  }
+
+  .section-seven h2 {
+    padding-top: 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 0;
+  }
+
+  .contact-message p::after {
+    height: 496px;
+    top: 138px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 401px;
+  }
 }
 
-@media (max-width: 1200px) {
+/*** 1536 ***/
+@media (max-width: 1536px) {
+}
+
+/*** 1440 ***/
+@media (max-width: 1440px) {
+}
+
+/*** 1280 ***/
+@media (max-width: 1280px) {
+}
+
+/*** 1600 ***/
+@media (max-width: 1600px) {
+}
+
+/* @media (max-width: 1200px) {
   header {
     width: 90%;
   }
@@ -1047,4 +1226,4 @@ input[type="checkbox"] {
     width: 100%;
     padding: 0 3rem;
   }
-}
+} */
