@@ -64,7 +64,7 @@ nav a {
   width: 100vw;
   overflow-x: hidden;
   padding-left: 4em;
-  height: calc(100vh - 103px);
+  min-height: calc(100vh - 103px);
   color: white;
   padding-top: 15em;
 }
@@ -136,7 +136,7 @@ nav a {
   margin-top: 10em;
   width: 100%;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .section-two {
@@ -570,7 +570,7 @@ nav a {
 .section-six {
   margin-top: 2em;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Roboto";
   font-weight: normal;
   text-align: center;
@@ -717,7 +717,7 @@ nav a {
 .section-seven {
   margin-top: 6em;
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   font-family: "Roboto";
   font-weight: normal;
   text-align: center;
